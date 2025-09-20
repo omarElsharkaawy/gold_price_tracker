@@ -4,7 +4,10 @@ import requests
 # Define your list of chat IDs here
 chat_id_list = [
     '1142576344',
-    '6193392805'
+    '6193392805',
+    '6517597850',
+    '875530758',
+    '253326435'
 ]
 
 def send_telegram_message(message: str) -> bool:
