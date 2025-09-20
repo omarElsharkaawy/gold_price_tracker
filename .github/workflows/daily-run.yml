@@ -2,7 +2,7 @@ name: Daily Gold Tracker Run
 
 on:
   schedule:
-    - cron: '30 18 * * *'  # Runs daily at 21:00 UTC (9 PM UTC)
+    - cron: '0 19 * * *'  # Runs daily at 21:00 UTC (9 PM UTC)
   workflow_dispatch:  # Allows manual trigger
 
 jobs:
