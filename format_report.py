@@ -58,7 +58,7 @@ Yesterday: ${price_analysis['yesterday_price']:.2f}
 This analysis uses AI with real-time market data for informational purposes only. Not financial advice.
 
 ---
-*Powered by AI Gold Tracker + Perplexity Pro 🤖*
+*Powered by AI Gold Tracker + Perplexity Pro 🤖 By Omar Elsharkawy*
 """
 
         return message.strip()
