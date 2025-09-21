@@ -34,5 +34,3 @@ def send_telegram_message(message: str) -> bool:
             overall_success = False
 
     return overall_success
-
-send_telegram_message("Test message")
