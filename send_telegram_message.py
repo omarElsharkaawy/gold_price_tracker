@@ -3,7 +3,7 @@ import requests
 
 # Define your list of chat IDs here
 chat_id_list = [
-    '-2647495037',
+    '-1002647495037',
 ]
 
 def send_telegram_message(message: str) -> bool:
@@ -34,3 +34,5 @@ def send_telegram_message(message: str) -> bool:
             overall_success = False
 
     return overall_success
+
+send_telegram_message("Test message")
